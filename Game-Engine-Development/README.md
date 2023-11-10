@@ -16,7 +16,7 @@ You should develop a small proof of concept game that makes use of your engine t
 demonstrate it is fit for purpose. This proof of concept should be included in your
 submission with any required assets.
 
-Minimum engine requirements  
+Minimum engine requirements:  
 Renderer  
 Input manager  
 Resource manager  
