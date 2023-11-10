@@ -7,5 +7,5 @@ Included in this repository is my work for the following modules.
 2 - Programming For Graphics    
 3 - Games Research Methods   
 4 - Tools Programming   
-5 - Artificial Intelligence for Games 
+5 - Artificial Intelligence for Games   
 6 - Group Project (Top-Bird).  
