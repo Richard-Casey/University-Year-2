@@ -1,0 +1,16 @@
+﻿  State.cpp
+C:\Users\riche\OneDrive\Desktop\s233122\Practice\implementation-Richard-Casey\AI-Framework\GridManager.h(45,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\riche\OneDrive\Desktop\s233122\Practice\implementation-Richard-Casey\AI-Framework\GridManager.h(46,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\riche\OneDrive\Desktop\s233122\Practice\implementation-Richard-Casey\AI-Framework\GridManager.h(48,30): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\riche\OneDrive\Desktop\s233122\Practice\implementation-Richard-Casey\AI-Framework\GridManager.h(48,23): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\riche\OneDrive\Desktop\s233122\Practice\implementation-Richard-Casey\AI-Framework\State.cpp(60,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\riche\OneDrive\Desktop\s233122\Practice\implementation-Richard-Casey\AI-Framework\State.cpp(137): warning C4715: 'DieState::Execute': not all control paths return a value
+  AIFramework.vcxproj -> C:\Users\riche\OneDrive\Desktop\s233122\Practice\implementation-Richard-Casey\AI-Framework\Debug\AIFramework.exe
