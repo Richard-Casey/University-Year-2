@@ -1,73 +1,80 @@
-# **Overall Grade for Module: 64%**
-Group Project Year 2:
-Download from Itch.io = https://rcasey.itch.io/top-bird
 
-## SUMMATIVE ASSESSMENT 1: INDIVIDUAL PORTFOLIO OF CONTRIBUTIONS
-Weighting
-80%
+# Group Project (Year 2) – Top-Bird (Unity Card Game)
 
-Details:  
-Throughout this semester, you will be participating in the game development process through a semester long game development project. 
-This will show your ability to estimate and control project resources, implement and execute test plans on an ongoing basis, 
-communicate game and individual progress in a consistent and effective manner, including the ability to pitch. Use of documentation
- and software related to project management will also be demonstrated in addition to your ability to reflect on work and identify best practices on a range of issues.
-You have been tasked with compiling the work you have done throughout the semester.
+**Final Module Grade: 72% – First Class Honours**  
+**Group Game (Solo Submission): 63%**  
+**Individual Contributions: 74%**
 
-Requirements specification:  
-Your portfolio submission should meet the following requirements:
+This project was part of the second-year *Group Project* module at the University of Suffolk. It was originally designed to be a collaborative effort involving designers and programmers from both year 1 and year 2, based on a pitch system where students voted on games proposed by the designers.
 
-Submitted as a single zipped up file with an easy to navigate folder structure (see Figure 1 below)
-Please provide a screencast (video) that shows the work you have done. You may voice over this, or 
-have a silent recording, so long as you go through each item YOU have worked on.
+I was assigned to a game titled **Top-Bird**, a Unity-based card game prototype — despite not choosing this brief in my top three preferences. The module structure placed the original GDD author as group lead, but unfortunately, they did not contribute to or communicate with the team. Of the six group members, I was the only programmer and ultimately the only person to complete any development work.
 
-The portfolio should be easy to navigate and contain all the work you have worked on. As this folder might exceed the upload limit for a Brightspace submission,
- it is also acceptable to upload the work to your University OneDrive account, and instead submit a .txt (text) file with the download link inside. Please ensure
- your work is timestamped.
+---
 
-Learning Outcomes Assessed:  
-Produce a game within identifiable constraints through an iterative approach to game production.  
-Plan, estimate and control the resource requirements for small projects on an ongoing basis.  
-Demonstrate intermediate level knowledge in the use of appropriate project management software to devise quality management systems for small projects.  
-Proactively maintain communication and reflect on a game’s development within a small development team.  
+## ⚠️ Group Breakdown & Resubmission
 
-## SUMMATIVE ASSESSMENT 2: THE GAME
-Details:  
-This assignment will demonstrate your ability to complete a game against an initial design specification. Quality of gameplay experience, iterative development
- of the game and ability to satisfy an identified market through appropriate gameplay design will be examined. The game will be completed as a group, and therefore
- group marks will be given to each student. For example, if a game is considered passable at 65%, all students who made that game, and provided evidence of individual
- contributions, will receive 65% for this assessment.
+Due to the original project being **non-runnable** and incomplete at the submission deadline, the game component of the module failed. However, my individual contributions received a **First (74%)**, demonstrating significant effort and professionalism.
 
-You have been tasked with developing a game within a team across the whole semester.
+After appealing to the university board with time-stamped proof of my work, I was granted an additional **10-day extension** to rebuild a fully playable version of *Top-Bird* **entirely solo**. This version of the game was assessed independently and scored **63%**, allowing my overall module grade to reach **72%** (First).
 
-Requirements specification:
-Your portfolio submission should meet the following requirements:
+The university confirmed that this work would be assessed as a **solo effort**, and I was considered a group of one.
 
-A submission zone will be available in the Brightspace module area, and in the Assignments section. Please submit a text file following this name format:  
-[team name] [game name]  
-Within this file, provide a link to your game which will be uploaded to an itch.io page provided  
-A gameplay video   
+---
 
-Length - 5 to 10 minutes long. Quality over quantity (hitting 10 exactly doesn't mean more marks, it’s mainly to give you scope for your team to fully contribute)  
-Screencast your presentation via OBS or something similar. Webcam isn't necessary but voice over is  
-Ideally submit as one presentation but if you can't figure out how to do this due to the lockdown, then separate screencasts is fine. Just create a README on the view 
-order and upload them all together. The README is important so that I don't miss anyone by mistake!  
-Please pitch your game as if you are pitching to potential players and investors. You want me to be excited about the game. Please do not talk about the dev process and how 
-hard it was to fix a bug etc. Get me hyped!  
-If you are finding it difficult to upload the presentation, then please upload an unlisted youtube video and submit the URL to it  
-Please record some gameplay footage and make that present somewhere in the presentation.  
-It's really up to you how you structure it! Get creative and involve everyone  
-At a minimum, your team lead needs to voice over as they are acting as project managers, but you all need to contribute to the presentation in some way.  
-To reiterate, it's not such a good idea to talk about how you made assets etc. It's more important to talk about how the decisions you made and assets you developed steered 
-the game in the direction you wanted. You should try to think, "how will this presentation excite players?".
+## 🧠 Game Overview: Top-Bird
 
-It's time for you all to think about what you've done and how to utilise your design and development knowledge to empower you to talk about the game in professional terms.
+Top-Bird is a turn-based card game where players draw and play unique bird-themed cards in head-to-head matchups. The game includes:
 
-For designers, it's now time to take what you've been learning in Design Methods and Introduction to Non-Digital Game Design and show me what you've learned. Mention the game's core loop, mention any other loops you may have integrated. Think about how you've designed the game and what makes it tick. For programmers, you can go into detail about the game's mechanics and any systems you have created. Talk about all the decisions a player can make and actions they can perform within your games.
+- 🎴 Card generation and random draw logic
+- 🪶 Stat-based card comparison system
+- 🎮 Custom UI for menus and gameplay flow
+- 📦 Unlockables and collectible functionality
+- 🔊 In-menu sound system and audio sliders
+- 🧠 AI-controlled opponent for solo play
 
-Think about the emotions you wanted to evoke and how you wanted the player to feel. Being able to discuss what you've created in this way will be far more valuable to you than to simply reel off what you've worked on. Of course, you can introduce yourself as the gameplay programmer, level designer etc, but don't make the presentation just about that.
+---
 
-Weighting  
-20%
+## 🔧 Key Systems & Contributions
 
-Learning Outcomes Assessed:  
-Produce a game within identifiable constraints through an iterative approach to game production.
+All development was carried out by me personally during the 10-day rebuild period:
+
+| System             | Details |
+|--------------------|---------|
+| UI & Menus         | Main menu, pause, restart, and endgame screens |
+| Card System        | Stats, visuals, random drawing, deck construction |
+| Game Flow Logic    | Turn control, win conditions, round resets |
+| AI Logic           | Enemy card draw and decision-making |
+| Sound Integration  | Background music and SFX toggles/sliders |
+| Shader Effects     | Basic material-based shaders for visual polish |
+| Unlockables        | Collection tracking and display via persistent data |
+| Build & Packaging  | Unity project cleanup, build folder creation |
+
+---
+
+## 🎓 Academic Outcome
+
+This project became a defining moment in my academic career — demonstrating my resilience, solo development capability, and ability to deliver under extreme constraints. Despite the group failure, the university recognised the integrity and quality of my submission:
+
+- **Final Solo Game Score:** 63%  
+- **Individual Contribution Score:** 74%  
+- **Final Weighted Module Grade:** **72% – First**
+
+---
+
+## 📝 Supporting Materials
+
+Included in this repository:
+- ✅ Full Unity project files
+- ✅ Standalone build
+- ✅ Postmortem report detailing the group issues and solo rebuild
+- ✅ Screenshots of development history (GitHub, Trello, Discord, Clockify)
+- ✅ Scripts directory (C#)
+- ✅ Individual contribution documentation and grading
+
+---
+
+## 🙌 Final Thoughts
+
+This module taught me more about professionalism, problem-solving, and resilience than any other. While the situation was far from ideal, I proved I could adapt, stay professional, and still deliver a complete project under pressure.
+
+*Top-Bird* may have started as a failed group effort, but it became one of my proudest solo achievements.
